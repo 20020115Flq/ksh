@@ -1,0 +1,193 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+a{
+    border: none;
+}
+/*包含以下四种的链接*/
+a {
+    text-decoration: none;
+}
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+}
+/*已经访问过的链接*/
+/* a:visited {
+    text-decoration: none;
+} */
+/*鼠标划过(停留)的链接*/
+/* a:hover {
+    text-decoration: none;
+} */
+/* 正在点击的链接*/
+/* a:active {
+    text-decoration: none;
+} */
+ul li{
+    list-style: none;
+}
+.root{
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: aqua;
+}
+.root1{
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: #fff;
+}
+.daohang{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+    height: 120px;
+    background-color: #fff;
+    
+}
+/* 导航栏的下划线和字体颜色 */
+.xiahuaxian{
+    border-bottom: #1e50ae solid 5px;
+}
+.zitiyanse{
+    color: #1e50ae;
+}
+/* 导航栏的隐藏和显示 */
+.daohang-xianshi{
+    color: #000;
+    font-size: 20px;
+    display: block;
+}
+.daohang-yincang{
+    color: #1e50ae;
+    font-size: 20px;
+    display: none;
+}
+.daohang-biaoti{
+    display: flex;
+}
+/* 标题的链接 */
+.daohang-wenzi1{
+    font-weight: 800;
+    font-size: 34px;
+    color: #1e50ae;
+}
+.daohang-wenzi2{
+    font-weight: 800;
+    font-size: 34px;
+    color: #cccccc;
+}
+.daohang-lianjie{
+    display: flex;
+}
+.daohang-lianjie a{
+    margin: 0 40px;
+}
+/* 了解更多 */
+.liaojie{
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    width: 75px;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+/* 导航栏标题 */
+.shouye{
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+.guanyuwomen{
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+.chanpin{
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+.xinwen{
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+.chengpin{
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+/* 纯隐藏 */
+.xianshi{
+    display: block;
+}
+.yincang{
+    display: none;
+}
+/* 关于我们内容的大小盒子 */
+.daohang-guanyuwomen{
+    width: 1000px;
+    height: 300px;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* 关于我们内容的图片 */
+.daohang-guanyuwomen-tupian{
+    width: 230px;
+    height: 260px;
+    background-image: url(../guanwang/img/01.webp);
+}
+/* 关于我们内容的文字 */
+.daohang-guanyuwomen-wenzi{
+    position: relative;
+    width: 230px;
+    height: 260px;
+}
+.daohang-guanyuwomen-wenzi span{
+    color: #000;
+    text-align: 16px;
+}
+.guanyuwomen-daohang{
+    width: 500px;
+    height: 260px;
+    color: #cccccc;
+    display: flex;
+    align-items:center
+}
+/* 关于我们的内容隐藏和显示 */
+.guanyuwomen-yincang{
+    position:absolute;
+    top: 120px;
+    left: 0px;
+    right: 200px;
+    display: none;
+
+    background-color: #fff;
+
+}
+/* .guanyuwomen-xianshi{
+    position:absolute;
+    top: 120px;
+    left: 0px;
+    right: 200px;
+    display: block;
+    display: flex;
+    background-color: #fff;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+} */
+.tupian{
+    width: 1200px;
+    height: 800px;
+    background-image:url(../guanwang/img/0.jpg);
+}
